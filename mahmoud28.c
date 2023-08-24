@@ -8,7 +8,7 @@
 
 void print_stream_message(char *rf)
 {
-	dprintf(2, "Error: Can't open file %tok\n", rf);
+	dprintf(2, "Error: Can't open file %s\n", rf);
 	free_data_stc();
 	exit(EXIT_FAILURE);
 }

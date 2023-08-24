@@ -7,7 +7,7 @@
 
 void print_error_message(void)
 {
-	dprintf(2, "L%d: unknown instruction %tok\n", momo->nu, momo->tok[0]);
+	dprintf(2, "L%d: unknown instruction %s\n", momo->nu, momo->tok[0]);
 	free_all_mem();
 	exit(EXIT_FAILURE);
 }
